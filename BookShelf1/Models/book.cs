@@ -22,5 +22,6 @@ namespace BookShelf1.Models
         public virtual Category Category { get; set; }
                      //^^Navigation Property
 
+
     }
 }

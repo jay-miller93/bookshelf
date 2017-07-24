@@ -10,6 +10,8 @@ namespace BookShelf1.Models
     {
         [Key]   
         public int ID { get; set; }
+
+        [Display(Name = "Category")]
         public string name { get; set; }
         public virtual ICollection<Book> Books { get; set; }
                      //^^^ Navigation property
